@@ -50,7 +50,7 @@ namespace CourseWorkDO
                 groupBoxReadFile.Enabled = true;
                 textBoxWriteData.ReadOnly = true;
                 groupBoxRandChoose.Enabled = false;
-                groupBoxWriteData.Text = "Дані з файлу";
+                //groupBoxWriteData.Text = "Дані з файлу";
             }
             
         }
@@ -396,17 +396,17 @@ namespace CourseWorkDO
 
                 }
 
-            if (radioAlgAnt.Checked == true)
-            {
+            //if (radioAlgAnt.Checked == true)
+            //{
                 degreeA = Convert.ToDouble(data[7]);
                 degreeB = Convert.ToDouble(data[8]);
                 k = int.Parse(data[9]);
                 r = int.Parse(data[10]);
                 q = Convert.ToDouble(data[11]);
                 f = Convert.ToDouble(data[12]);
-            }
+            //}
 
-        }
+    }
         public void showFileData()
         {
             textBoxWriteData.Text = /*"n: " + */n + Environment.NewLine;
@@ -1072,7 +1072,7 @@ namespace CourseWorkDO
                 r = rnd.Next(Convert.ToInt32(numRandRMin.Value), Convert.ToInt32(numRandRMax.Value) + 1);
                 q = rnd.NextDouble() * (Convert.ToDouble(numRandQMax.Value) - Convert.ToDouble(numRandQMin.Value)) + Convert.ToDouble(numRandQMin.Value);
                 f = rnd.NextDouble() * (Convert.ToDouble(numRandFMax.Value) - Convert.ToDouble(numRandFMin.Value)) + Convert.ToDouble(numRandFMin.Value);
-                showFileData();
+                //showFileData();
             }
             else
             {

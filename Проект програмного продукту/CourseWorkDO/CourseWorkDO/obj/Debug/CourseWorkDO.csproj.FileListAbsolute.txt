@@ -42,3 +42,20 @@ C:\Users\User\Desktop\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.exe
 C:\Users\User\Desktop\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.pdb
 C:\Users\User\Desktop\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.Main.resources
 C:\Users\User\Desktop\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.Help.resources
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\bin\Debug\CourseWorkDO.exe.config
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\bin\Debug\CourseWorkDO.exe
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\bin\Debug\CourseWorkDO.pdb
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\bin\Debug\ZedGraph.dll
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\bin\Debug\ZedGraph.resources.dll
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\bin\Debug\ZedGraph.Web.dll
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\bin\Debug\ZedGraph.xml
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\bin\Debug\ZedGraph.Web.xml
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.csprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.Main.resources
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.Help.resources
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.Properties.Resources.resources
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.csproj.GenerateResource.cache
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.csproj.CopyComplete
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.exe
+C:\Users\User\Documents\GitHub\courseWorkDO\Проект програмного продукту\CourseWorkDO\CourseWorkDO\obj\Debug\CourseWorkDO.pdb

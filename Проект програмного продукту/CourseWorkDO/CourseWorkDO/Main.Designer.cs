@@ -856,6 +856,7 @@
             this.textBoxAnswer.Location = new System.Drawing.Point(6, 19);
             this.textBoxAnswer.Multiline = true;
             this.textBoxAnswer.Name = "textBoxAnswer";
+            this.textBoxAnswer.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBoxAnswer.Size = new System.Drawing.Size(672, 83);
             this.textBoxAnswer.TabIndex = 0;
             // 
