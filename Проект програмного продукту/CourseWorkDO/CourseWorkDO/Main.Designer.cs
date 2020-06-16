@@ -774,11 +774,6 @@
             // numRandTimeMin
             // 
             this.numRandTimeMin.Location = new System.Drawing.Point(115, 71);
-            this.numRandTimeMin.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
             this.numRandTimeMin.Minimum = new decimal(new int[] {
             1,
             0,
