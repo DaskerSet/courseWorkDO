@@ -95,6 +95,14 @@
             this.toolTipTime = new System.Windows.Forms.ToolTip(this.components);
             this.toolTipIteration = new System.Windows.Forms.ToolTip(this.components);
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.buttonBuild1 = new System.Windows.Forms.Button();
+            this.buttonBuild2 = new System.Windows.Forms.Button();
+            this.buttonBuild3 = new System.Windows.Forms.Button();
+            this.buttonBuild4 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.tabPage2.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage6.SuspendLayout();
@@ -158,6 +166,8 @@
             // 
             // tabPage6
             // 
+            this.tabPage6.Controls.Add(this.label12);
+            this.tabPage6.Controls.Add(this.buttonBuild1);
             this.tabPage6.Controls.Add(this.zedGraphControl1);
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Margin = new System.Windows.Forms.Padding(2);
@@ -170,6 +180,8 @@
             // 
             // zedGraphControl1
             // 
+            this.zedGraphControl1.IsEnableHZoom = false;
+            this.zedGraphControl1.IsEnableVZoom = false;
             this.zedGraphControl1.Location = new System.Drawing.Point(1, 0);
             this.zedGraphControl1.Name = "zedGraphControl1";
             this.zedGraphControl1.ScrollGrace = 0D;
@@ -185,6 +197,8 @@
             // 
             // tabPage9
             // 
+            this.tabPage9.Controls.Add(this.label11);
+            this.tabPage9.Controls.Add(this.buttonBuild2);
             this.tabPage9.Controls.Add(this.zedGraphControl4);
             this.tabPage9.Location = new System.Drawing.Point(4, 22);
             this.tabPage9.Margin = new System.Windows.Forms.Padding(2);
@@ -197,6 +211,8 @@
             // 
             // zedGraphControl4
             // 
+            this.zedGraphControl4.IsEnableHZoom = false;
+            this.zedGraphControl4.IsEnableVZoom = false;
             this.zedGraphControl4.Location = new System.Drawing.Point(0, 3);
             this.zedGraphControl4.Name = "zedGraphControl4";
             this.zedGraphControl4.ScrollGrace = 0D;
@@ -211,6 +227,8 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.label10);
+            this.tabPage7.Controls.Add(this.buttonBuild3);
             this.tabPage7.Controls.Add(this.zedGraphControl2);
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Margin = new System.Windows.Forms.Padding(2);
@@ -223,6 +241,8 @@
             // 
             // zedGraphControl2
             // 
+            this.zedGraphControl2.IsEnableHZoom = false;
+            this.zedGraphControl2.IsEnableVZoom = false;
             this.zedGraphControl2.Location = new System.Drawing.Point(0, 0);
             this.zedGraphControl2.Name = "zedGraphControl2";
             this.zedGraphControl2.ScrollGrace = 0D;
@@ -232,11 +252,13 @@
             this.zedGraphControl2.ScrollMinX = 0D;
             this.zedGraphControl2.ScrollMinY = 0D;
             this.zedGraphControl2.ScrollMinY2 = 0D;
-            this.zedGraphControl2.Size = new System.Drawing.Size(725, 483);
+            this.zedGraphControl2.Size = new System.Drawing.Size(716, 467);
             this.zedGraphControl2.TabIndex = 1;
             // 
             // tabPage8
             // 
+            this.tabPage8.Controls.Add(this.label9);
+            this.tabPage8.Controls.Add(this.buttonBuild4);
             this.tabPage8.Controls.Add(this.zedGraphControl3);
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Margin = new System.Windows.Forms.Padding(2);
@@ -248,6 +270,8 @@
             // 
             // zedGraphControl3
             // 
+            this.zedGraphControl3.IsEnableHZoom = false;
+            this.zedGraphControl3.IsEnableVZoom = false;
             this.zedGraphControl3.Location = new System.Drawing.Point(1, 3);
             this.zedGraphControl3.Name = "zedGraphControl3";
             this.zedGraphControl3.ScrollGrace = 0D;
@@ -1052,6 +1076,82 @@
             this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
+            // buttonBuild1
+            // 
+            this.buttonBuild1.Location = new System.Drawing.Point(588, 440);
+            this.buttonBuild1.Name = "buttonBuild1";
+            this.buttonBuild1.Size = new System.Drawing.Size(116, 23);
+            this.buttonBuild1.TabIndex = 1;
+            this.buttonBuild1.Text = "Побудувати графік";
+            this.buttonBuild1.UseVisualStyleBackColor = true;
+            this.buttonBuild1.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // buttonBuild2
+            // 
+            this.buttonBuild2.Location = new System.Drawing.Point(589, 440);
+            this.buttonBuild2.Name = "buttonBuild2";
+            this.buttonBuild2.Size = new System.Drawing.Size(117, 23);
+            this.buttonBuild2.TabIndex = 1;
+            this.buttonBuild2.Text = "Побудувати графік";
+            this.buttonBuild2.UseVisualStyleBackColor = true;
+            this.buttonBuild2.Click += new System.EventHandler(this.buttonBuild2_Click);
+            // 
+            // buttonBuild3
+            // 
+            this.buttonBuild3.Location = new System.Drawing.Point(592, 440);
+            this.buttonBuild3.Name = "buttonBuild3";
+            this.buttonBuild3.Size = new System.Drawing.Size(116, 23);
+            this.buttonBuild3.TabIndex = 2;
+            this.buttonBuild3.Text = "Побудувати графік";
+            this.buttonBuild3.UseVisualStyleBackColor = true;
+            this.buttonBuild3.Click += new System.EventHandler(this.buttonBuild3_Click);
+            // 
+            // buttonBuild4
+            // 
+            this.buttonBuild4.Location = new System.Drawing.Point(590, 440);
+            this.buttonBuild4.Name = "buttonBuild4";
+            this.buttonBuild4.Size = new System.Drawing.Size(116, 23);
+            this.buttonBuild4.TabIndex = 1;
+            this.buttonBuild4.Text = "Побудувати графік";
+            this.buttonBuild4.UseVisualStyleBackColor = true;
+            this.buttonBuild4.Click += new System.EventHandler(this.buttonBuild4_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(22, 445);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(163, 13);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Приблизний час побудови: 15с";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(24, 445);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(177, 13);
+            this.label10.TabIndex = 3;
+            this.label10.Text = "Приблизний час побудови: 2:30хв";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(26, 445);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(157, 13);
+            this.label11.TabIndex = 3;
+            this.label11.Text = "Приблизний час побудови: 1с";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(17, 445);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(163, 13);
+            this.label12.TabIndex = 3;
+            this.label12.Text = "Приблизний час побудови: 35с";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1066,9 +1166,13 @@
             this.tabPage2.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.tabPage6.ResumeLayout(false);
+            this.tabPage6.PerformLayout();
             this.tabPage9.ResumeLayout(false);
+            this.tabPage9.PerformLayout();
             this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
             this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
             this.tabPage1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -1176,6 +1280,14 @@
         private ZedGraph.ZedGraphControl zedGraphControl3;
         private System.Windows.Forms.TabPage tabPage9;
         private ZedGraph.ZedGraphControl zedGraphControl4;
+        private System.Windows.Forms.Button buttonBuild1;
+        private System.Windows.Forms.Button buttonBuild2;
+        private System.Windows.Forms.Button buttonBuild3;
+        private System.Windows.Forms.Button buttonBuild4;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
     }
 }
 

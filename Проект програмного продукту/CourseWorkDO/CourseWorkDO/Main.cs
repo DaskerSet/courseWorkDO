@@ -40,10 +40,10 @@ namespace CourseWorkDO
         {
 
             InitializeComponent();
-            DrawTime(zedGraphControl1);
-            DrawRate(zedGraphControl2);
-            DrawRateAnt(zedGraphControl3);
-            DrawTimeGrDy(zedGraphControl4);
+            //DrawTime(zedGraphControl1);
+            //DrawRate(zedGraphControl2);
+            //DrawRateAnt(zedGraphControl3);
+            //DrawTimeGrDy(zedGraphControl4);
             textBoxWriteData.Text = "";
             if (radioDataFile.Checked == true)
             {
@@ -357,54 +357,62 @@ namespace CourseWorkDO
         }
         public void defineArrays(String stringData)
         {
-            char patternEnter = '\n';
-            char patternSpace = ' ';
-            String[] data = stringData.Split(patternEnter);
-            n = Int32.Parse(data[0]);
+            try
+            {
+                char patternEnter = '\n';
+                char patternSpace = ' ';
+                String[] data = stringData.Split(patternEnter);
+                n = Int32.Parse(data[0]);
 
-            for (int i = 0; i < 2; i++)
-            {
-                arrayP[i] = new int[n];
-                arrayT[i] = new int[n - 1];
-            }
-            //read and define arrayA
-            for (int i = 0; i < 2; i++)
-            {
-                String[] temp = data[1].Split(patternSpace);
-                arrayA[i] = int.Parse(temp[i]);
-            }
-            //read and define arrayB
-            for (int i = 0; i < 2; i++)
-            {
-                String[] temp = data[2].Split(patternSpace);
-                arrayB[i] = int.Parse(temp[i]);
-            }
-            //read and define arrayP
-            for (int i = 0; i <= 1; i++)
-                for (int j = 0; j < n; j++)
+                for (int i = 0; i < 2; i++)
                 {
-                    String[] temp = data[i + 3].Split(patternSpace);
-                    arrayP[i][j] = int.Parse(temp[j]);
-
+                    arrayP[i] = new int[n];
+                    arrayT[i] = new int[n - 1];
                 }
-            //read and define arrayT
-            for (int i = 0; i <= 1; i++)
-                for (int j = 0; j < n - 1; j++)
+                //read and define arrayA
+                for (int i = 0; i < 2; i++)
                 {
-                    String[] temp = data[i + 5].Split(patternSpace);
-                    arrayT[i][j] = int.Parse(temp[j]);
-
+                    String[] temp = data[1].Split(patternSpace);
+                    arrayA[i] = int.Parse(temp[i]);
                 }
+                //read and define arrayB
+                for (int i = 0; i < 2; i++)
+                {
+                    String[] temp = data[2].Split(patternSpace);
+                    arrayB[i] = int.Parse(temp[i]);
+                }
+                //read and define arrayP
+                for (int i = 0; i <= 1; i++)
+                    for (int j = 0; j < n; j++)
+                    {
+                        String[] temp = data[i + 3].Split(patternSpace);
+                        arrayP[i][j] = int.Parse(temp[j]);
 
-            //if (radioAlgAnt.Checked == true)
-            //{
+                    }
+                //read and define arrayT
+                for (int i = 0; i <= 1; i++)
+                    for (int j = 0; j < n - 1; j++)
+                    {
+                        String[] temp = data[i + 5].Split(patternSpace);
+                        arrayT[i][j] = int.Parse(temp[j]);
+
+                    }
+
+                //if (radioAlgAnt.Checked == true)
+                //{
                 degreeA = Convert.ToDouble(data[7]);
                 degreeB = Convert.ToDouble(data[8]);
                 k = int.Parse(data[9]);
                 r = int.Parse(data[10]);
                 q = Convert.ToDouble(data[11]);
                 f = Convert.ToDouble(data[12]);
-            //}
+                //}
+            }
+            catch 
+            {
+                textBoxAnswer.Text = "Неправильний формат даних";
+            }
+            
 
     }
         public void showFileData()
@@ -1144,6 +1152,39 @@ namespace CourseWorkDO
         private void numRandDegreeAMax_ValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DrawTime(zedGraphControl1);
+            tabControl2.SelectedTab = tabPage8;
+            tabControl2.SelectedTab = tabPage6;
+            buttonBuild1.Enabled = false;
+        }
+
+        private void buttonBuild3_Click(object sender, EventArgs e)
+        {
+            
+            DrawRate(zedGraphControl2);
+            tabControl2.SelectedTab = tabPage8;
+            tabControl2.SelectedTab = tabPage7;
+            buttonBuild3.Enabled = false;
+        }
+
+        private void buttonBuild2_Click(object sender, EventArgs e)
+        {
+            DrawTimeGrDy(zedGraphControl4);
+            tabControl2.SelectedTab = tabPage8;
+            tabControl2.SelectedTab = tabPage9;
+            buttonBuild2.Enabled = false;
+        }
+
+        private void buttonBuild4_Click(object sender, EventArgs e)
+        {
+            DrawRateAnt(zedGraphControl3);
+            tabControl2.SelectedTab = tabPage9;
+            tabControl2.SelectedTab = tabPage8;
+            buttonBuild4.Enabled = false;
         }
     }
 }
